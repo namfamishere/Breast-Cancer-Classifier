@@ -18,10 +18,13 @@ Each image in the dataset has a specific filename structure. An example of it is
 ## 3.1 Obtaining dataset
 First you need to download the IDC dataset from [here](https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images). 
 If you would like to use only a part of the original dataset, check the options ``python get_dataset.py --help``
-In this work, we use a small part of the original dataset containing 32,713 images, including 15,851 negative examples (no breast cancer) and 4859 positive examples (breast cancer found) and divided into 3 sets:
+
+In this work, we use a small part of the original dataset containing 32,163 images, including 23,499 negative examples (no breast cancer) and 8664 positive examples (breast cancer found) and divided into 3 sets:
 - training set: 20,584 images
 - validation set: 5,146 images
 - test set: 6,433 images
+
+You can download it [here](https://drive.google.com/drive/folders/1Mty2S7qd1XlR8Kpiz7DegyYDiDHB95xH).
 
 To checks for splitting dataset into training, validation and test sets:
 ``python build_dataset.py --help``
