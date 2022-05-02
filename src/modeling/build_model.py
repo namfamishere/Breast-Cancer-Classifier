@@ -59,5 +59,6 @@ if __name__ == "__main__":
     model = CancerNet.build_model(48, 48, 3, 2)
     print("Getting the model architecture...")
     model.summary()
+    
 
 
